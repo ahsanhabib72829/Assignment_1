@@ -1,0 +1,117 @@
+    .poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+body {
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/* shar_style  */
+.color_1{
+    color: #4E47FF;
+}
+.btn_praymary{
+    background-color:#4E47FF ;
+    width: 132px;
+    height: 48px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 36px;
+    border: none;
+    padding: 10px;
+}
+
+header{
+    background-image: url(../Assignment_1/Assets/Hero-bg.png);
+    height: 698px;
+}
+nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.logo {
+color: #4E47FF;
+width: 99px;
+height: 51px;
+line-height: 150%;
+}
+.heder_text h1{
+   font-weight: 700;
+   font-size: 65px;
+   color: #252432;
+   text-align: center;
+   margin-bottom: 37px;
+}
+.heder_text{
+    margin-top: 158px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+/* Action_card  */
+.Action_card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.Action_text h3{
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+}
+.Action_text p{
+    color: #252432;
+    line-height: 30px;
+}
+.Action_card button{
+    width: 229px;
+    height: 48;
+    gap: 10px;
+    padding: 16px 16px;
+    text-align: center;
+}
+.Action_img img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* Users_container  */
+.Users_container{
+    height: 306px;
+    padding: 80px;
+    background-color: #EDEFFF;
+    border-radius: 24px;
+    margin-top: 30px;
+}
+.Users_heding{
+    font-weight: bold;
+    font-size: 38px;
+   
+}
+.Users_card{
+    text-align: center;
+    
+}
+.All_Users{
+    display: flex;
+    justify-content: space-between; 
+
+}
+.Usere__visit{
+    align-items: center;
+}
+.Usere__visit p{
+color: #7B7D85;
+}
+li{
+    font-weight: bold;
+    font-size: 80px;
+    list-style: none;
+    
+ }
