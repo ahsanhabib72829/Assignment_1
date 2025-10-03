@@ -4,9 +4,12 @@
 }
 body {
 
-    max-width: 1140px;
-    margin: 0 auto;
+    
 
+}
+main{
+   max-width: 1140px;
+    margin: 0 auto; 
 }
 /* shar_style  */
 .color_1{
@@ -143,11 +146,7 @@ li{
     padding: 24px;
     border-radius: 14px;
  }
- .icon img{
-    /* width: 116px;
-    height: 20px;
-    gap: 4px; */
- }
+
  .card_futter{
     display: flex;
     gap: 3px;
@@ -188,3 +187,58 @@ li{
  .focus_img img{
 border-radius: 48px;
  }
+ /* loging_card  */
+.from_container{
+    background-color: #F2EDED;
+    display: flex;
+    margin-top: 110px;
+    gap:19px;
+    padding: 15px;
+}
+.from_cl{
+    width: 50%;
+    
+}
+.from_cl h1{
+    font-weight: bold;
+    font-size: 97px;
+}
+.from_cl input[type="email"], .from_cl input[type="text"], .from_cl textarea , .from_cl input[type="button"]{
+    height: 70px;
+    gap: 10px;
+    display: block;
+    padding: 0 10px;
+    width: 90%;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+.inout_btn {
+  width: 94%;
+}
+/* footer  */
+footer{
+    text-align: center;
+}
+.footer_containar{
+    padding: 10px;
+    width: 539px;
+    margin: 0 auto;
+    
+}
+.footer_containar h1{
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 5px;
+}
+.footer_containar p{
+    
+}
+.footer_buttom {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
